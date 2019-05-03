@@ -24,10 +24,10 @@ especially to new features and major visual changes.
 ## Step 1: Feature pitch
 Feature pitches are submitted as issues on GitHub using the 
 [Feature Request template](https://github.com/Microsoft/calculator/issues/new?assignees=&labels=&template=feature_request.md&title=). 
-We encourage discussion on open issues, and as discussion progresses we will edit the issue description to refine the 
+We encourage discussion on open issues, and as the discussion progresses we will edit the issue description to refine the 
 idea until it is ready for review.
 
-We review pitches regularly, and will approve or close issues based on whether they broadly align with the 
+We review pitches regularly and will approve or close issues based on whether they broadly align with the 
 [Calculator roadmap](https://github.com/Microsoft/calculator/blob/master/docs/Roadmap.md). Approved pitches are moved 
 into [pre-production](https://github.com/Microsoft/calculator/projects/1) on the feature tracking board.
 
@@ -41,7 +41,7 @@ proposal during pre-production, and we'll edit or close the original pitch.
 We welcome community participation throughout pre-production. The best ideas often come from trying many ideas during 
 the pre-production phase. To enable rapid
 experimentation, we encourage developing and sharing rough ideas&mdash;maybe even with pencil and
-paper&mdash;before making designs pixel-perfect or making code robust and maintainable.
+paper&mdash;before making designs pixel-perfect or making the code robust and maintainable.
 
 After the [spec review](https://github.com/Microsoft/calculator-specs#spec-review) is completed, we will move the issue 
 into [production](https://github.com/Microsoft/calculator/projects/1) on the feature tracking board. In _some_ cases, 
@@ -90,7 +90,7 @@ new features, the Microsoft team considers at least these items:
       plan to monitor the upstream library for changes like security fixes.
     - [ ] If the library is being used under an open-source license, we must comply with the license
       and credit third parties appropriately.
-- [ ] If the change adds code which runs during the app's startup path, or adds new XAML elements
+- [ ] If the change adds code which runs during the app's startup path or adds new XAML elements
   which are loaded at startup:
     - [ ] Run the perf tests to measure any increase in startup time. Move work out of the startup
       path if possible.
