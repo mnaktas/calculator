@@ -56,7 +56,7 @@ Once the window is resized to have enough space, the panel becomes docked along 
 
 #### Scientific mode, inverse function button presence
 
-In the Scientific mode, for small window sizes there is not enough room to show all the function buttons. The mode
+In the Scientific mode, for small window sizes, there is not enough room to show all the function buttons. The mode
 hides some of the buttons and provides a Shift (↑) button to toggle the visibility of the collapsed rows. When the
 window size is large enough, the buttons are re-arranged to display all function buttons at the same time.
 
