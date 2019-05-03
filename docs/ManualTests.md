@@ -130,7 +130,7 @@ Steps:
 2.	Navigate to "Standard" Calculator.
 3.	Perform a calculation and press the MS button.
 4.	If small scale, Select the (M) with the drop down arrow
-*Expected: Calculation from previous step is present.*
+*Expected: Calculation from the previous step is present.*
 5.	Click the (M+) Add to Memory.
 *Expected: Previous calculation is added to itself.*
 6.	Click the (M-) Subtract from Memory.
@@ -241,7 +241,7 @@ Verify the following:
 7.	"QWORD / DWORD / WORD / BYTE":
 *Expected: Toggles as expected.*
 8.	"Hex" Hexadecimal:
-*Expected: A B C D E F become active and user can use them. A maximum of 16 characters can be entered.*
+*Expected: A B C D E F become active and the user can use them. A maximum of 16 characters can be entered.*
 9.	"Dec" Decimal:
 *Expected: A B C D E F are inactive. A maximum of 19 characters can be entered.*
 10.	"Oct" Octal:
